@@ -2,11 +2,13 @@ function leap(a)
 {
     if(((a%4==0) &&(a%100!=0)) || (a%4==0))
     {
-ans="yes"
+ans="yes,this is leap year"
     }
     else
     {
-        ans="no"
+        ans="no,this is not leap year"
     }
     console.log(ans)
 }
+
+input--> leap(2016)  output-->yes,this is leap year
