@@ -1,0 +1,12 @@
+function leap(a)
+{
+    if(((a%4==0) &&(a%100!=0)) || (a%4==0))
+    {
+ans="yes"
+    }
+    else
+    {
+        ans="no"
+    }
+    console.log(ans)
+}
